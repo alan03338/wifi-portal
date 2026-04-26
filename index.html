@@ -1,2 +1,81 @@
-<html><head><title>404 File Not Found</title></head>
-<body>The requested URL was not found on this server</body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AC Elétrica</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    h1 {
+      color: #00c3ff;
+      margin-top: 20px;
+    }
+
+    p {
+      color: #ccc;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: #00c3ff;
+      border: none;
+      border-radius: 8px;
+      color: #000;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #00a0cc;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SUA IMAGEM -->
+  <img src="https://i.imgur.com/SEU-LOGO.jpg" alt="AC Elétrica">
+
+  <h1>AC Instalações Elétricas</h1>
+
+  <p>Instalação elétrica • Câmeras • Redes Wi-Fi</p>
+
+  <button onclick="entrar()">Acessar Internet</button>
+
+</div>
+
+<script>
+function entrar() {
+  window.location.href = "https://www.instagram.com/eletricista_guabiruba/";
+}
+
+// Redireciona automático após 5 segundos
+setTimeout(() => {
+  entrar();
+}, 5000);
+</script>
+
+</body>
+</html>
